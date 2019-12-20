@@ -1,5 +1,5 @@
 function convertToRoman(num) {
-    let romain = {
+    let roman = {
         1: "I",
         5: "V",
         10: "X",
@@ -11,14 +11,14 @@ function convertToRoman(num) {
 
     function get(a, n){
         let base = Math.pow(10, n); 
-        if(a == 5) return romain[a * base];
+        if(a == 5) return roman[a * base];
         else if (a>5) {
-            if(a == 9) return romain[base] + romain[10*base];
-            else return romain[5 * base] + romain[base].repeat(a - 5);
+            if(a == 9) return roman[base] + roman[10*base];
+            else return roman[5 * base] + roman[base].repeat(a - 5);
         }
         else{
-            if(a == 4) return romain[base] + romain[5 * base];
-            else return romain[base].repeat(a);
+            if(a == 4) return roman[base] + roman[5 * base];
+            else return roman[base].repeat(a);
         }
     }
 
