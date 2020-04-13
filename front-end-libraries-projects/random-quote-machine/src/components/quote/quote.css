@@ -1,0 +1,71 @@
+.wrapper {
+    width: 45%;
+}
+#quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+    display: block;
+    margin: 15px auto 30px auto;
+    width: 100%;
+    font-size: 0.8em;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+.left-quote {
+    font-size: 1.0em;
+    margin-right: 0.4em;
+}
+
+.left-quote::before {
+    content: "\f10d";
+}
+
+#author {
+    padding-top: 10px;
+}
+
+#author > span {
+    float: right;
+}
+
+#new-quote {
+    float: right;
+    margin-top: 30px;
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#social-media {
+    float: left;
+}
+
+.buttons {
+    clear: both;
+}
+
+#text  {
+    font-weight: 500;
+    font-size: 1.75em;
+}
